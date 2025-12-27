@@ -1,0 +1,83 @@
+body { 
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+  margin: 0; 
+  padding: 0;
+  background: #f5f5f5;
+}
+
+a { 
+  text-decoration: none; 
+  color: #0366d6; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container { 
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.card { 
+  border: 1px solid #ddd; 
+  padding: 16px; 
+  border-radius: 8px; 
+  background: #fff;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.list-item { 
+  padding: 12px 0; 
+  border-bottom: 1px solid #f3f3f3; 
+}
+
+.list-item:last-child {
+  border-bottom: none;
+}
+
+input, textarea, select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #0366d6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #0256c2;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.risk-high {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.risk-medium {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.risk-low {
+  color: #28a745;
+}
+
